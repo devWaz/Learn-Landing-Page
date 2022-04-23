@@ -282,3 +282,58 @@ nav button:hover{
 .certificate h3{
     margin-bottom: 10px;
 }
+
+.thirdSection{
+    width: 85%;
+    margin: auto;
+    margin-top: 4rem;
+    border: 1px solid blue;
+    display: flex;
+}
+
+.secondImageSection {
+   width: 50%;
+   height: 35rem;
+   border-radius: 50%;
+   background-color: #f9f8fe;
+}
+
+.secondImageSection img{
+    height: 20rem;
+    margin-left: 7rem;
+    margin-top: 7rem;
+}
+
+.accessible{
+    width: 50%;
+    border: 1px solid red;
+    padding: 2rem;
+    padding-left: 3rem;
+    padding-top: 8rem;
+}
+
+.accessible h1{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.accessible h5{
+    font-weight: 100;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+.check1 ul,.check2 ul{
+    display: flex;
+}
+
+.check1 ul li, .check2 ul li{
+    display: flex;
+    flex-direction: ;
+    margin-right: 5rem;
+    margin-top: 1rem;
+}
+
+.check1 ul li img, .check2 ul li img{
+    margin-right: 0.5rem;
+}
