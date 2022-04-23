@@ -172,7 +172,6 @@ nav button:hover{
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
-
 }
 
 .plan{
@@ -287,7 +286,6 @@ nav button:hover{
     width: 85%;
     margin: auto;
     margin-top: 4rem;
-    border: 1px solid blue;
     display: flex;
 }
 
@@ -306,7 +304,6 @@ nav button:hover{
 
 .accessible{
     width: 50%;
-    border: 1px solid red;
     padding: 2rem;
     padding-left: 3rem;
     padding-top: 8rem;
@@ -329,11 +326,56 @@ nav button:hover{
 
 .check1 ul li, .check2 ul li{
     display: flex;
-    flex-direction: ;
     margin-right: 5rem;
     margin-top: 1rem;
 }
 
 .check1 ul li img, .check2 ul li img{
     margin-right: 0.5rem;
+}
+
+.accessible button{
+    background-color: #6833e3;
+    border: none;
+    color: white;
+    width: 6rem;
+    border-radius: 10px;
+    padding: 0.7rem;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.accessible button:hover{
+    background-color: #4b24a7;
+}
+
+.fourthSection{
+    width: 85%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.latest{
+    display: flex;
+    margin-top: 1rem;
+    border: 1px solid red;
+}
+
+.latest h5{
+    line-height: 20px;
+    font-weight: 100;
+}
+
+.latest button{
+    background-color: #6833e3;
+    border: none;
+    color: white;
+    width: 6rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-top: 2rem;
 }
