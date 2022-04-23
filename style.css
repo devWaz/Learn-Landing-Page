@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+nav{
+    display: flex;
+    height: 3rem;
+    background-color: #f8f5fe;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1.5rem;
+    border-bottom: 0.5px solid rgba(204, 204, 204, 0.61);
+}
+
+.Logo p {
+    color: #4b24a7;
+    font-weight: bolder;
+}
+
+.Logo p span{
+    color: #c46c78;
+}
+
+.navList{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul li {
+    display: inline;
+    margin: 2rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(70, 69, 69);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #6833e3;
+}
+
+nav button{
+    background-color: #6833e3;
+    border: none;
+    color: white;
+    width: 5rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-size: 10px;
+}
+
+nav button:hover{
+    background-color: #4b24a7;
+}
+
+.partOne{
+    width: 90%;
+    background-color: #f8f5fe;
+    height: 35rem;
+    border-radius: 0% 0% 100% 10%;
+    display: flex;
+}
+
+.text-section{
+    width: 50%;
+    margin-left: 10%;
+    padding-top: 6rem
+}
+
+.text-section h1{
+    font-size: 4rem;
+}
+
+.text-section hr{
+    height: 0.4rem;
+    background-color: #c46c78;
+    margin: 1rem;
+    border-radius: 40%;
+    border: none;
+}
+
+.text-section h4{
+    font-weight: 1;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.getStarted{
+    margin-top: 1rem;
+    display: flex;
+}
+
+.getStarted button{
+    background-color: #6833e3;
+    border: none;
+    color: white;
+    width: 6rem;
+    border-radius: 10px;
+    padding: 0.7rem;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.getStarted img{
+    height: 2rem;
+    margin-left: 2rem;
+}
+
+.text-section ul{
+    margin-top: 1rem;
+    
+}
+
+.text-section ul li{
+    display: inline;
+    margin-right: 3rem;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.text-section ul li img{
+    margin-bottom: -3px;
+    margin-right: 0.5rem;
+}
+
+.img-section img{
+    height: 30rem;
+    margin-left: 7rem;
+    margin-top: 1rem;
+}
