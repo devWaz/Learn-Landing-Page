@@ -359,7 +359,6 @@ nav button:hover{
 .latest{
     display: flex;
     margin-top: 1rem;
-    border: 1px solid red;
 }
 
 .latest h5{
@@ -378,4 +377,19 @@ nav button:hover{
     font-weight: bold;
     margin-left: auto;
     margin-top: 2rem;
+}
+
+.card1 {
+    width: 20%;
+    border: 1px solid blue;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.picture {
+    width: 100%;
+    height: 7rem;
+    background-color: #ccc;
+    border-radius: 10px;
+
 }
