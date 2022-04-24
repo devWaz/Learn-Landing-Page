@@ -380,6 +380,10 @@ nav button:hover{
     margin-top: 2rem;
 }
 
+.latest button:hover{
+    background-color: #4b24a7;
+}
+
 .latestCourses{
     display: flex;
     justify-content: space-between;
@@ -493,4 +497,59 @@ nav button:hover{
     margin-top: 0.5rem;
 }
 
+
+.fifthSection{
+    width: 85%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.clients{
+    display: flex;
+}
+
+.clients button{
+    background-color: #6833e3;
+    border: none;
+    color: white;
+    width: 6rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-top: 2rem;
+}
+
+.clients button:hover{
+    background-color: #4b24a7;
+}
+
+.clientCards{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clientCard{
+    width: 30%;
+    background-color: #f9f8fe;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.clientCard h6{
+    padding-top: 5px;
+}
+
+.clientCard .statement{
+    padding-top: 10px;
+}
+
+.sixthSection{
+    width: 85%;
+    margin: auto;
+    margin-top: 5rem;
+    border: 1px solid red;
+}
 
