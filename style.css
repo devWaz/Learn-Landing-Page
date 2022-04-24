@@ -540,7 +540,7 @@ nav button:hover{
 
 .clientCard h6{
     padding-top: 5px;
-    line-height: 15px;
+    line-height: 17px;
 }
 
 .clientCard .statement{
@@ -548,14 +548,14 @@ nav button:hover{
 }
 
 .sixthSection{
-    width: 75%;
+    width: 70%;
     margin: auto;
     margin-top: 5rem;
-    border: 1px solid red;
     text-align: center;
     background-color: #6833e3;
     color: white;
     padding-top: 2rem;
+    border-radius: 10px 10px 30% 30%;
 }
 
 .sixthSection h1{
@@ -571,10 +571,25 @@ nav button:hover{
 .subscribe input[type="email"]{
     width: 40%;
     padding: 10px;
+    margin-bottom: 5rem;
+    border-radius: 10px;
+    border: none;
 }
 
 .subscribe input[type="button"]{
-    width: 10%;
-    padding: 10px;
-    background-color: #;
+    width: 7%;
+    padding: 12px;
+    background-color: #c75e5c;
+    border: none;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: -4rem;
+}
+
+footer{
+    margin-top: 5rem;
+    background-color: #6833e3;
+    height: 10rem;
 }
