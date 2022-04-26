@@ -594,15 +594,22 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 2rem;
+    padding-bottom: 5rem;
 }
 
 .solution, .programs, .about, .resources{
     width: 23%;
-    border: 1px solid red;
     padding: 1rem;
     color: white;
 }
 
 .programs li, .about li, .resources li{
     list-style: none;
+    margin-top: .7rem;
+    font-size: 15px;
+}
+
+.programs li a, .about li a, .resources li a{
+    text-decoration: none;
+    color: white;
 }
