@@ -593,10 +593,16 @@ footer{
     background-color: #6833e3;
     display: flex;
     justify-content: space-between;
+    padding: 2rem;
 }
 
 .solution, .programs, .about, .resources{
     width: 23%;
     border: 1px solid red;
+    padding: 1rem;
+    color: white;
+}
+
+.programs li, .about li, .resources li{
     list-style: none;
 }
