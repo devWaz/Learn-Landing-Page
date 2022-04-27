@@ -401,6 +401,22 @@ nav button:hover{
     background-color: #f9f8fe;
 }
 
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card1:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card2:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card3:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .picture {
     width: 100%;
     height: 10rem;
@@ -608,8 +624,13 @@ footer{
     color: white;
 }
 
-.Logo2 p {
+.Logo2 a p {
     font-weight: bolder;
+    color: white;
+}
+
+.Logo2 a {
+    text-decoration: none;
 }
 
 .Logo2 p span{
