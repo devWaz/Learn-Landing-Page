@@ -656,3 +656,20 @@ footer{
     color: white;
     
 }
+
+/* Tablet View */
+
+@media screen and (max-width:768px) {
+    .text-section h1{
+        font-size: 3rem;
+    }
+
+    .text-section{
+        padding: 0;
+        padding-top: 3rem;
+    }
+
+    .partTwo{
+        margin-top: 4rem;
+    }
+}
