@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: 'Nunito', sans-serif;
 }
 
-nav{
+nav {
     display: flex;
     height: 3rem;
     background-color: #f8f5fe;
@@ -26,11 +26,11 @@ nav{
     font-weight: bolder;
 }
 
-.Logo p span{
+.Logo p span {
     color: #c46c78;
 }
 
-.navList{
+.navList {
     margin-left: auto;
     margin-right: auto;
 }
@@ -40,18 +40,18 @@ nav ul li {
     margin: 2rem;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: rgb(70, 69, 69);
     font-size: 15px;
     font-weight: bold;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: #6833e3;
 }
 
-nav button{
+nav button {
     background-color: #6833e3;
     border: none;
     color: white;
@@ -61,11 +61,11 @@ nav button{
     font-size: 10px;
 }
 
-nav button:hover{
+nav button:hover {
     background-color: #4b24a7;
 }
 
-.partOne{
+.partOne {
     width: 85%;
     background-color: #f8f5fe;
     height: 37rem;
@@ -73,17 +73,17 @@ nav button:hover{
     display: flex;
 }
 
-.text-section{
+.text-section {
     width: 50%;
     margin-left: 10%;
     padding-top: 6rem
 }
 
-.text-section h1{
+.text-section h1 {
     font-size: 4rem;
 }
 
-.text-section hr{
+.text-section hr {
     height: 0.4rem;
     background-color: #c46c78;
     margin-top: 1rem;
@@ -92,18 +92,18 @@ nav button:hover{
     border: none;
 }
 
-.text-section h4{
+.text-section h4 {
     font-weight: 1;
     line-height: 20px;
     font-size: 15px;
 }
 
-.getStarted{
+.getStarted {
     margin-top: 1rem;
     display: flex;
 }
 
-.getStarted button{
+.getStarted button {
     background-color: #6833e3;
     border: none;
     color: white;
@@ -114,39 +114,39 @@ nav button:hover{
     font-weight: bold;
 }
 
-.getStarted button:hover{
+.getStarted button:hover {
     background-color: #4b24a7;
 }
 
-.getStarted img{
+.getStarted img {
     height: 2rem;
     margin-left: 2rem;
 }
 
-.text-section ul{
+.text-section ul {
     margin-top: 1rem;
-    
+
 }
 
-.text-section ul li{
+.text-section ul li {
     display: inline;
     margin-right: 3rem;
     font-size: 13px;
     font-weight: bold;
 }
 
-.text-section ul li img{
+.text-section ul li img {
     margin-bottom: -3px;
     margin-right: 0.5rem;
 }
 
-.img-section img{
+.img-section img {
     height: 25rem;
     margin-left: 7rem;
     margin-top: 1rem;
 }
 
-.partTwo{
+.partTwo {
     width: 80%;
     margin: auto;
     margin-top: -8rem;
@@ -158,34 +158,34 @@ nav button:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.partTwo img{
+.partTwo img {
     height: 30px;
 }
 
-.secondSection{
+.secondSection {
     text-align: center;
     width: 85%;
     margin: auto;
     margin-top: 4rem;
 }
 
-.worksList{
+.worksList {
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
 }
 
-.plan{
+.plan {
     padding: 1rem;
 }
 
-.worksList .plan{
+.worksList .plan {
     background-color: #f9f8fe;
     width: 20%;
     border-radius: 20px;
 }
 
-.worksList .plan div{
+.worksList .plan div {
     width: 30px;
     height: 30px;
     margin: auto;
@@ -194,29 +194,32 @@ nav button:hover{
     margin-bottom: 10px;
 }
 
-.worksList .plan img{
+.worksList .plan img {
     margin-top: 7px;
 }
 
-.plan h3{
+.plan h3 {
     margin-bottom: 10px;
 }
 
-.plan h5, .course h5, .award h5, .certificate h5{
+.plan h5,
+.course h5,
+.award h5,
+.certificate h5 {
     font-weight: 400;
 }
 
-.course{
+.course {
     padding: 1rem;
 }
 
-.worksList .course{
+.worksList .course {
     background-color: #fff3f3;
     width: 20%;
     border-radius: 20px;
 }
 
-.worksList .course div{
+.worksList .course div {
     width: 30px;
     height: 30px;
     margin: auto;
@@ -225,25 +228,25 @@ nav button:hover{
     margin-bottom: 10px;
 }
 
-.worksList .course img{
+.worksList .course img {
     margin-top: 7px;
 }
 
-.course h3{
+.course h3 {
     margin-bottom: 10px;
 }
 
-.award{
+.award {
     padding: 1rem;
 }
 
-.worksList .award{
+.worksList .award {
     background-color: #f3fdff;
     width: 20%;
     border-radius: 20px;
 }
 
-.worksList .award div{
+.worksList .award div {
     width: 30px;
     height: 30px;
     margin: auto;
@@ -252,25 +255,25 @@ nav button:hover{
     margin-bottom: 10px;
 }
 
-.worksList .award img{
+.worksList .award img {
     margin-top: 7px;
 }
 
-.award h3{
+.award h3 {
     margin-bottom: 10px;
 }
 
-.certificate{
+.certificate {
     padding: 1rem;
 }
 
-.worksList .certificate{
+.worksList .certificate {
     background-color: #fffaf4;
     width: 20%;
     border-radius: 20px;
 }
 
-.worksList .certificate div{
+.worksList .certificate div {
     width: 30px;
     height: 30px;
     margin: auto;
@@ -279,15 +282,15 @@ nav button:hover{
     margin-bottom: 10px;
 }
 
-.worksList .certificate img{
+.worksList .certificate img {
     margin-top: 7px;
 }
 
-.certificate h3{
+.certificate h3 {
     margin-bottom: 10px;
 }
 
-.thirdSection{
+.thirdSection {
     width: 85%;
     margin: auto;
     margin-top: 4rem;
@@ -295,51 +298,54 @@ nav button:hover{
 }
 
 .secondImageSection {
-   width: 50%;
-   height: 35rem;
-   border-radius: 50%;
-   background-color: #f9f8fe;
+    width: 50%;
+    height: 35rem;
+    border-radius: 50%;
+    background-color: #f9f8fe;
 }
 
-.secondImageSection img{
+.secondImageSection img {
     height: 20rem;
     margin-left: 7rem;
     margin-top: 7rem;
 }
 
-.accessible{
+.accessible {
     width: 50%;
     padding: 2rem;
     padding-left: 3rem;
     padding-top: 8rem;
 }
 
-.accessible h1{
+.accessible h1 {
     font-size: 2.5rem;
     font-weight: 300;
 }
 
-.accessible h5{
+.accessible h5 {
     font-weight: 100;
     line-height: 20px;
     margin-top: 5px;
 }
 
-.check1 ul,.check2 ul{
+.check1 ul,
+.check2 ul {
     display: flex;
 }
 
-.check1 ul li, .check2 ul li{
+.check1 ul li,
+.check2 ul li {
     display: flex;
     margin-right: 5rem;
     margin-top: 1rem;
 }
 
-.check1 ul li img, .check2 ul li img{
+.check1 ul li img,
+.check2 ul li img {
     margin-right: 0.5rem;
 }
 
-.accessible button{
+.accessible button {
     background-color: #6833e3;
     border: none;
     color: white;
@@ -351,28 +357,28 @@ nav button:hover{
     margin-top: 1rem;
 }
 
-.accessible button:hover{
+.accessible button:hover {
     background-color: #4b24a7;
 }
 
-.fourthSection{
+.fourthSection {
     width: 85%;
     margin: auto;
     margin-top: 4rem;
 }
 
-.latest{
+.latest {
     display: flex;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.latest h5{
+.latest h5 {
     line-height: 20px;
     font-weight: 100;
 }
 
-.latest button{
+.latest button {
     background-color: #6833e3;
     border: none;
     color: white;
@@ -385,11 +391,11 @@ nav button:hover{
     margin-top: 2rem;
 }
 
-.latest button:hover{
+.latest button:hover {
     background-color: #4b24a7;
 }
 
-.latestCourses{
+.latestCourses {
     display: flex;
     justify-content: space-between;
 }
@@ -401,19 +407,19 @@ nav button:hover{
     background-color: #f9f8fe;
 }
 
-.card:hover{
+.card:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.card1:hover{
+.card1:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.card2:hover{
+.card2:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.card3:hover{
+.card3:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -434,13 +440,13 @@ nav button:hover{
     margin-top: 0.5rem;
 }
 
-.duration{
+.duration {
     display: flex;
     margin-top: -0.7rem;
     margin-bottom: .5rem;
 }
 
-.lessons{
+.lessons {
     margin-left: auto;
 }
 
@@ -519,17 +525,17 @@ nav button:hover{
 }
 
 
-.fifthSection{
+.fifthSection {
     width: 85%;
     margin: auto;
     margin-top: 4rem;
 }
 
-.clients{
+.clients {
     display: flex;
 }
 
-.clients button{
+.clients button {
     background-color: #6833e3;
     border: none;
     color: white;
@@ -542,33 +548,33 @@ nav button:hover{
     margin-top: 2rem;
 }
 
-.clients button:hover{
+.clients button:hover {
     background-color: #4b24a7;
 }
 
-.clientCards{
+.clientCards {
     margin-top: 2rem;
     display: flex;
     justify-content: space-between;
 }
 
-.clientCard{
+.clientCard {
     width: 28%;
     background-color: #f9f8fe;
     padding: 1rem;
     border-radius: 5px;
 }
 
-.clientCard h6{
+.clientCard h6 {
     padding-top: 5px;
     line-height: 17px;
 }
 
-.clientCard .statement{
+.clientCard .statement {
     padding-top: 10px;
 }
 
-.sixthSection{
+.sixthSection {
     width: 70%;
     margin: auto;
     margin-top: 5rem;
@@ -579,17 +585,17 @@ nav button:hover{
     border-radius: 10px 10px 30% 30%;
 }
 
-.sixthSection h1{
+.sixthSection h1 {
     font-size: 40px;
     margin-bottom: 1rem;
 }
 
-.sixthSection h5{
+.sixthSection h5 {
     line-height: 20px;
     margin-bottom: 2rem;
 }
 
-.subscribe input[type="email"]{
+.subscribe input[type="email"] {
     width: 40%;
     padding: 10px;
     margin-bottom: 5rem;
@@ -597,7 +603,7 @@ nav button:hover{
     border: none;
 }
 
-.subscribe input[type="button"]{
+.subscribe input[type="button"] {
     width: 7%;
     padding: 12px;
     background-color: #c75e5c;
@@ -609,7 +615,7 @@ nav button:hover{
     margin-left: -4rem;
 }
 
-footer{
+footer {
     margin-top: 10rem;
     background-color: #6833e3;
     display: flex;
@@ -618,7 +624,10 @@ footer{
     padding-bottom: 5rem;
 }
 
-.solution, .programs, .about, .resources{
+.solution,
+.programs,
+.about,
+.resources {
     width: 23%;
     padding: 1rem;
     color: white;
@@ -633,47 +642,47 @@ footer{
     text-decoration: none;
 }
 
-.Logo2 p span{
+.Logo2 p span {
     color: #c46c78;
 }
 
-.solution h5{
+.solution h5 {
     font-weight: 100;
     line-height: 1.2rem;
     margin-top: 1rem;
     font-size: 12px;
 }
 
-.programs li, .about li, .resources li{
+.programs li,
+.about li,
+.resources li {
     list-style: none;
     margin-top: 1.2rem;
     font-size: 12px;
     font-weight: 100;
 }
 
-.programs li a, .about li a, .resources li a{
+.programs li a,
+.about li a,
+.resources li a {
     text-decoration: none;
     color: white;
-    
+
 }
 
 /* Tablet View */
 
 @media screen and (max-width:768px) {
-    .text-section h1{
+    .text-section h1 {
         font-size: 2.5rem;
     }
 
-    .text-section{
+    .text-section {
         padding: 0;
         padding-top: 2rem;
     }
 
-    .text-section hr{
-        /* display: none; */
-    }
-
-    .partTwo{
+    .partTwo {
         margin-top: 2rem;
     }
 }
